@@ -1,10 +1,11 @@
 # expense-tracking
-## (WIP!)
+### (WIP!)
 
+#### Design
 * This web app will be used to capture expense data entered manually to send to a Google Sheet.
 * The web app requests authentication.
 * Data sent to the Google sheet must be sent securely and without exposing any API secret key
 
-Languages / Skills applied:
+#### Languages / Skills applied:
 * HTML
 * JS
