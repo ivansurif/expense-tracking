@@ -13,6 +13,15 @@
 
 
 
-Description:
+#### Description:
 The app combines the usage of an SQLite database to securely store user authentication credentials and category names,
-while writing data to a Google Sheet via API
+while writing data to a Google Sheet via API.
+
+Using Google Sheets fulfils the need for an easily accessible database, but also requires the use of oAuth to make changes to the sheet.
+
+Expenses can be of 2 different types: Standard or Extraordinary
+Standard expenses require a Category, otherwise, the input is rejected
+Extraordinary expenses don't require a Category. In fact, when an expense is marked "Extraordinary", the Category selection
+dropdown is hidden. For Extraordinary expenses, the value entered into "Description" is written into the Google Sheet in the
+same column to which Standard expenses Category is saved.
+
