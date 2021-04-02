@@ -9,3 +9,10 @@
 #### Languages / Skills applied:
 * HTML
 * JS
+* MYSQL
+
+
+
+Description:
+The app combines the usage of an SQLite database to securely store user authentication credentials and category names,
+while writing data to a Google Sheet via API
