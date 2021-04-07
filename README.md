@@ -2,9 +2,8 @@
 ### (WIP!)
 
 #### Design
-* This web app will be used to capture expense data entered manually to send to a Google Sheet.
+* This web app will be used to capture expense data entered manually to send to an SQLite database.
 * The web app requests authentication.
-* Data sent to the Google sheet must be sent securely and without exposing any API secret key
 
 #### Languages / Skills applied:
 * HTML
@@ -19,8 +18,7 @@ same column to which Standard expenses Category is saved.
 * MYSQL
 The app combines the usage of an SQLite database to securely store user authentication credentials and category names,
 while writing data to a Google Sheet via API.
-* OAuth
-Using Google Sheets fulfils the need for an easily accessible database, but also requires the use of oAuth to make changes to the sheet.
+
 * Google Cloud App Engine
 The service is hosted in Google Cloud App Engine
 
